@@ -17,7 +17,7 @@ type Params = {
 };
 
 type Props = {
-  params: Promise<Params>; // 👈 IMPORTANT (matches your working code)
+  params: Promise<Params>; //
 };
 
 export default async function Board({ params }: Props) {
